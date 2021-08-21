@@ -1,0 +1,40 @@
+:root {
+  --main-bg-color: hsl(182, 100%, 20%);
+  --second-bg-color: hsl(182, 100%, 33%)
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+}
+
+#main {
+  border-radius: 30px;
+  background-color: var(--second-bg-color);
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  margin: 200px auto auto auto;
+  /* 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+#conv-btn {
+  border : 1px solid black;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+#city-form {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
